@@ -1,11 +1,8 @@
 import json
 
 def load_contacts():
-    try:
-        with open("contacts.json", "r") as file:
-            return json.load(file)
-    except:
-        return {}
+    with open("contacts.json", "r") as file:
+        return json.load(file)
 
 def save_contacts(contacts):
     with open("contacts.json", "w") as file:
