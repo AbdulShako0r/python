@@ -1,0 +1,4 @@
+Hi , Am learning Python
+I am a computer Science graduate from islamia university of bahawalpur
+I have 3.47 CGPA
+ i want to write data in my file
